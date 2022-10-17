@@ -202,12 +202,19 @@ textarea {
 
 .preloader .preloader__img {
     display: inline-block;
-    position: absolute;
+    position: fixed;
     width: 150px;
     top: 50%;
-    left: 50%;
+    left: 60%;
     transform: translate(-50%, -50%);
-}
+  }
+  
+  @media (min-width: 768px) {
+    .preloader .preloader__img {
+      top: 50%;
+      left: 50%;
+    }
+  }
 
 /*
 * ----------------------------------------------------------------------------------------

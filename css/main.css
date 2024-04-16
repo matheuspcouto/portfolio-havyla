@@ -41,9 +41,10 @@ body {
     font-family: 'Poppins';
     font-size: 15px;
     font-weight: 400;
-    background: #76D8EE;
+    background: #D0AF9C;
     color: #181715;
     text-rendering: optimizeLegibility;
+    scrollbar-width: none;
 }
 
 ::selection {
@@ -56,7 +57,7 @@ a:hover {
 }
 
 .fixid {
-    background: #76D8EE;
+    background: #ffffff;
     box-shadow: 0 0 10px 5px rgba(1, 28, 87, 0.3);
 }
 
@@ -110,7 +111,7 @@ textarea {
     border: none;
     width: 20px;
     height: 2px;
-    background: #68AAFF;
+    background: #D0AF9C;
     border-radius: 3px;
     margin: 10px 5px;
     padding: 3px;
@@ -193,7 +194,7 @@ textarea {
     width: 100%;
     height: 100%;
     z-index: 999999999 !important;
-    background-color: #68AAFF;
+    background-color: #D0AF9C;
     top: 0;
     left: 0;
     right: 0;
@@ -328,9 +329,9 @@ textarea {
     z-index: 2;
     top: -100%;
     display: none;
-    background: #68AAFF;
+    background: #D0AF9C;
     padding: 80px 0 30px 0;
-    border-bottom: 1px solid #68AAFF;
+    border-bottom: 1px solid #D0AF9C;
 }
 
 .overlay__listnav {
@@ -384,7 +385,7 @@ textarea {
 .infohero__title {
     font-size: 80px;
     font-weight: 600;
-    text-shadow: 5px 5px #68AAFF;
+    text-shadow: 3px 3px #ffffff;
 }
 
 .infohero__title span {
@@ -402,8 +403,8 @@ textarea {
     height: 350px;
     width: 350px;
     object-fit: cover;
-    box-shadow: 20px 20px 1px 1px #68AAFF;
-    border: 7px solid;
+    box-shadow: 15px 15px 1px 1px #ffffff;
+    border: 5px solid;
 }
 
 #typed-text {
@@ -474,7 +475,7 @@ textarea {
 
 .wrapservice i {
     font-size: 30px;
-    background: #76D8EE;
+    background: #ffffff;
     padding: 20px 20px;
     border-radius: 100%;
 }
@@ -531,7 +532,7 @@ textarea {
 }
 
 .porfoliowarp__item:hover .porfoliowarp__content {
-    background-color: #68AAFF;
+    background-color: #D0AF9C;
     opacity: .5;
 }
 
@@ -644,7 +645,7 @@ textarea {
     bottom: 0;
     width: 100%;
     z-index: 9999;
-    background: #76D8EE;
+    background: #D0AF9C;
 }
 
 #footer .copyright {
@@ -669,7 +670,7 @@ textarea {
     font-size: 18px;
     display: inline-block;
     background: #fff;
-    color: #68AAFF;
+    color: #D0AF9C;
     line-height: 1;
     padding: 8px 0;
     margin-right: 4px;
@@ -682,7 +683,7 @@ textarea {
 }
 
 #footer .profile .social-links a:hover {
-    background: #68AAFF;
+    background: #D0AF9C;
     color: #fff;
     text-decoration: none;
 }
